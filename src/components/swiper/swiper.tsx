@@ -146,8 +146,16 @@ export const Swiper = forwardRef<SwiperRef, SwiperProps>(
         [count]
       )
 
+      const dragCancelRef = useRef<(() => void) | null>(null)
+      function forceCancelDrag() {
+        dragCancelRef.current?.()
+        draggingRef.current = false
+      }
+
       const bind = useDrag(
         state => {
+          dragCancelRef.current = state.cancel
+          if (!state.intentional) return
           const slidePixels = getSlidePixels()
           if (!slidePixels) return
           const paramIndex = isVertical ? 1 : 0
@@ -181,6 +189,7 @@ export const Swiper = forwardRef<SwiperRef, SwiperProps>(
               (position.get() / 100) * slidePixels,
             ]
           },
+          triggerAllEvents: true,
           bounds: () => {
             if (loop) return {}
             const slidePixels = getSlidePixels()
@@ -247,7 +256,7 @@ export const Swiper = forwardRef<SwiperRef, SwiperProps>(
         return () => {
           window.clearInterval(interval)
         }
-      }, [autoplay, autoplayInterval, dragging])
+      }, [autoplay, autoplayInterval, dragging, count])
 
       function renderTrackInner() {
         if (loop) {
@@ -318,6 +327,7 @@ export const Swiper = forwardRef<SwiperRef, SwiperProps>(
               if (draggingRef.current) {
                 e.stopPropagation()
               }
+              forceCancelDrag()
             }}
             {...(props.allowTouchMove ? bind() : {})}
           >

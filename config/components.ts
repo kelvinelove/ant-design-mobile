@@ -78,6 +78,7 @@ export const components = {
     '/components/image-uploader',
     '/components/number-keyboard',
     '/components/passcode-input',
+    '/components/result-page',
     '/components/tree-select',
     '/components/virtual-input',
     // '/components/scroll-mask',

@@ -102,10 +102,13 @@ const zhCN = mergeLocale(base, {
     clear: '清除',
   },
   Mask: {
-    name: '遮罩层',
+    name: '背景蒙层',
   },
   Modal: {
     ok: '我知道了',
+  },
+  PasscodeInput: {
+    name: '密码输入框',
   },
   PullToRefresh: {
     pulling: '下拉刷新',

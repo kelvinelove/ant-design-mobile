@@ -17,7 +17,6 @@ const BundleAnalyzerPlugin =
 const tsconfig = require('./tsconfig.json')
 const packageJson = require('./package.json')
 const StatoscopeWebpackPlugin = require('@statoscope/webpack-plugin').default
-
 const pxMultiplePlugin = require('postcss-px-multiple')({ times: 2 })
 
 function clean() {
@@ -112,55 +111,80 @@ function buildDeclaration() {
     .pipe(gulp.dest('lib/cjs/'))
 }
 
-function getViteConfigForPackage({ minify, formats, external }) {
+function getViteConfigForPackage({ env, formats, external }) {
   const name = packageJson.name
+  const isProd = env === 'production'
   return {
     root: process.cwd(),
 
+    mode: env,
+
     logLevel: 'silent',
+
+    define: { 'process.env.NODE_ENV': `"${env}"` },
 
     build: {
       lib: {
-        name,
+        name: 'antdMobile',
         entry: './lib/es/index.js',
         formats,
-        fileName: format => {
-          const suffix = format === 'umd' ? '' : `.${format}`
-          return minify ? `${name}${suffix}.min.js` : `${name}${suffix}.js`
-        },
+        fileName: format => `${name}.${format}${isProd ? '' : `.${env}`}.js`,
       },
-      minify: minify ? 'terser' : false,
       rollupOptions: {
         external,
         output: {
           dir: './lib/bundle',
-          exports: 'named',
+          // exports: 'named',
           globals: {
-            react: 'React',
+            'react': 'React',
+            'react-dom': 'ReactDOM',
           },
         },
       },
+      minify: isProd ? 'esbuild' : false,
     },
   }
 }
 
 async function buildBundles(cb) {
-  const dependencies = packageJson.dependencies || {}
-  const externals = Object.keys(dependencies)
-
-  const configs = [
-    // esm/cjs bundle
+  const envs = ['development', 'production']
+  const configs = envs.map(env =>
     getViteConfigForPackage({
-      minify: false,
-      formats: ['es', 'cjs'],
-      external: ['react', ...externals],
-    }),
-  ]
+      env,
+      formats: ['es', 'cjs', 'umd'],
+      external: ['react', 'react-dom'],
+    })
+  )
 
   await Promise.all(configs.map(config => vite.build(config)))
   cb && cb()
 }
 
+function buildCompatibleUMD() {
+  return gulp
+    .src('lib/bundle/antd-mobile.umd.js')
+    .pipe(
+      babel({
+        presets: [
+          [
+            '@babel/env',
+            {
+              targets: {
+                'chrome': '49',
+                'ios': '9',
+              },
+            },
+          ],
+        ],
+      })
+    )
+    .pipe(rename('antd-mobile.compatible.umd.js'))
+    .pipe(gulp.dest('lib/bundle/'))
+    .pipe(rename('antd-mobile.js'))
+    .pipe(gulp.dest('lib/umd/'))
+}
+
+// Deprecated
 function umdWebpack() {
   return gulp
     .src('lib/es/index.js')
@@ -283,7 +307,6 @@ function init2xFolder() {
   return gulp
     .src('./lib/**', {
       base: './lib/',
-      ignore: ['./lib/2x/demos/**/*'],
     })
     .pipe(gulp.dest('./lib/2x/'))
 }
@@ -328,6 +351,8 @@ exports.default = gulp.series(
   copyAssets,
   copyMetaFiles,
   generatePackageJSON,
-  gulp.parallel(umdWebpack, buildBundles),
-  gulp.series(init2xFolder, build2xCSS)
+  buildBundles,
+  buildCompatibleUMD,
+  gulp.series(init2xFolder, build2xCSS),
+  umdWebpack
 )
