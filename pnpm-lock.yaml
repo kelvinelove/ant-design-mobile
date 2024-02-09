@@ -36,9 +36,15 @@ dependencies:
   dayjs:
     specifier: ^1.11.7
     version: 1.11.9
+  deepmerge:
+    specifier: ^4.3.1
+    version: 4.3.1
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
+  nano-memoize:
+    specifier: ^3.0.16
+    version: 3.0.16
   rc-field-form:
     specifier: ~1.27.4
     version: 1.27.4(react-dom@18.2.0)(react@18.2.0)
@@ -7292,7 +7298,6 @@ packages:
   /deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /default-compare@1.0.0:
     resolution: {integrity: sha512-QWfXlM0EkAbqOCbD/6HjdwT19j7WCkMyiRhWilc4H9/5h/RzTF9gv5LYh1+CmDV5d1rki6KAWLtQale0xt20eQ==}
@@ -12596,6 +12601,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /nano-memoize@3.0.16:
+    resolution: {integrity: sha512-JyK96AKVGAwVeMj3MoMhaSXaUNqgMbCRSQB3trUV8tYZfWEzqUBKdK1qJpfuNXgKeHOx1jv/IEYTM659ly7zUA==}
+    dev: false
 
   /nanoid@2.1.11:
     resolution: {integrity: sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==}
