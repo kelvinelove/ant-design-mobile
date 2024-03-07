@@ -10,6 +10,7 @@ import Form from '../../form'
 import Picker from '../../picker'
 import SearchBar from '../../search-bar'
 import ImageUploader from '../../image-uploader'
+import { useConfig } from '../'
 
 import zhCN from '../../../locales/zh-CN'
 import zhTW from '../../../locales/zh-TW'
@@ -29,6 +30,7 @@ import nlNL from '../../../locales/nl-NL'
 import ruRU from '../../../locales/ru-RU'
 import trTR from '../../../locales/tr-TR'
 import thTH from '../../../locales/th-TH'
+import huHU from '../../../locales/hu-HU'
 
 const locales = [
   zhCN,
@@ -40,6 +42,7 @@ const locales = [
   koKR,
   jaJP,
   frFR,
+  huHU,
   kkKZ,
   idID,
   itIT,
@@ -95,5 +98,17 @@ describe('ConfigProvider', () => {
 
       expect(container).toMatchSnapshot()
     })
+  })
+
+  test('useConfig should only has `locale`', () => {
+    let config: ReturnType<typeof useConfig>
+
+    const Demo = () => {
+      config = useConfig()
+      return null
+    }
+    render(<Demo />)
+
+    expect(Object.keys(config!)).toEqual(['locale'])
   })
 })
