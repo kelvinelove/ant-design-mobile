@@ -1,6 +1,6 @@
+import { CalendarPicker, List } from 'antd-mobile'
 import dayjs from 'dayjs'
 import React, { useState } from 'react'
-import { CalendarPicker, List } from 'antd-mobile'
 
 const defaultRange: [Date, Date] = [
   dayjs().toDate(),

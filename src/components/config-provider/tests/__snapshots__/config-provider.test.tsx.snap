@@ -778,7 +778,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -1262,7 +1264,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -1738,7 +1742,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -1747,27 +1753,6 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -2235,7 +2220,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -2705,7 +2692,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -3196,7 +3185,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -3675,7 +3666,9 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -4633,7 +4626,7 @@ exports[`ConfigProvider should display the text as ar-SA 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="تحميل"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -5422,7 +5415,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -5906,7 +5901,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -6382,7 +6379,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -6391,27 +6390,6 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -6879,7 +6857,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -7349,7 +7329,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -7840,7 +7822,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -8319,7 +8303,9 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -9277,7 +9263,7 @@ exports[`ConfigProvider should display the text as da-DK 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -10066,7 +10052,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -10550,7 +10538,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -11026,7 +11016,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -11035,27 +11027,6 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -11523,7 +11494,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -11993,7 +11966,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -12484,7 +12459,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -12963,7 +12940,9 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -13921,7 +13900,7 @@ exports[`ConfigProvider should display the text as de-DE 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Hochladen"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -14710,7 +14689,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -15194,7 +15175,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -15670,7 +15653,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -15679,27 +15664,6 @@ exports[`ConfigProvider should display the text as en 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -16167,7 +16131,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -16637,7 +16603,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -17128,7 +17096,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -17607,7 +17577,9 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -18565,7 +18537,7 @@ exports[`ConfigProvider should display the text as en 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -19354,7 +19326,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -19838,7 +19812,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -20314,7 +20290,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -20323,27 +20301,6 @@ exports[`ConfigProvider should display the text as es 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -20811,7 +20768,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -21281,7 +21240,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -21772,7 +21733,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -22251,7 +22214,9 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -23209,7 +23174,7 @@ exports[`ConfigProvider should display the text as es 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -23998,7 +23963,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -24482,7 +24449,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -24958,7 +24927,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -24967,27 +24938,6 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -25455,7 +25405,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -25925,7 +25877,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -26416,7 +26370,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -26895,7 +26851,9 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -27853,7 +27811,7 @@ exports[`ConfigProvider should display the text as fa-IR 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -28642,7 +28600,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -29126,7 +29086,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -29602,7 +29564,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -29611,27 +29575,6 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -30099,7 +30042,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -30569,7 +30514,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -31060,7 +31007,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -31539,7 +31488,9 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -32497,7 +32448,7 @@ exports[`ConfigProvider should display the text as fr-FR 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Télécharger"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -33286,7 +33237,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -33770,7 +33723,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -34246,7 +34201,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -34255,27 +34212,6 @@ exports[`ConfigProvider should display the text as hu 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -34743,7 +34679,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -35213,7 +35151,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -35704,7 +35644,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -36183,7 +36125,9 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -37141,7 +37085,7 @@ exports[`ConfigProvider should display the text as hu 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Feltöltés"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -37930,7 +37874,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -38414,7 +38360,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -38890,7 +38838,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -38899,27 +38849,6 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -39387,7 +39316,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -39857,7 +39788,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -40348,7 +40281,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -40827,7 +40762,9 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -41785,7 +41722,7 @@ exports[`ConfigProvider should display the text as id-ID 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="diunggah"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -42574,7 +42511,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -43058,7 +42997,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -43534,7 +43475,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -43543,27 +43486,6 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -44031,7 +43953,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -44501,7 +44425,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -44992,7 +44918,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -45471,7 +45399,9 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -46429,7 +46359,7 @@ exports[`ConfigProvider should display the text as in-ID 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="diunggah"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -47218,7 +47148,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -47702,7 +47634,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -48178,7 +48112,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -48187,27 +48123,6 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -48675,7 +48590,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -49145,7 +49062,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -49636,7 +49555,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -50115,7 +50036,9 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -51073,7 +50996,7 @@ exports[`ConfigProvider should display the text as it-IT 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Carica"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -51862,7 +51785,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -52346,7 +52271,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -52822,7 +52749,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -52831,27 +52760,6 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -53319,7 +53227,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -53789,7 +53699,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -54280,7 +54192,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -54759,7 +54673,9 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -55717,7 +55633,7 @@ exports[`ConfigProvider should display the text as ja-JP 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="アップロード"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -55820,7 +55736,7 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
       <div
         class="adm-calendar-title"
       >
-        2022жыл3-ші ай
+        2022 жыл 3 ай
       </div>
       <a
         class="adm-calendar-arrow-button adm-calendar-arrow-button-right adm-calendar-arrow-button-right-month"
@@ -55910,37 +55826,37 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
       <div
         class="adm-calendar-mark-cell"
       >
-        Же
+        Жс
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Дү
+        Дс
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Се
+        Сс
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Сә
+        Ср
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Бе
+        Бс
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Жұ
+        Жм
       </div>
       <div
         class="adm-calendar-mark-cell"
       >
-        Се
+        Сб
       </div>
     </div>
     <div
@@ -56470,47 +56386,49 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Же
+        Жс
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Дү
+        Дс
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Се
+        Сс
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Сә
+        Ср
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Бе
+        Бс
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Жұ
+        Жм
       </div>
       <div
         class="adm-calendar-picker-view-mark-cell"
       >
-        Се
+        Сб
       </div>
     </div>
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл3-ші ай
+          2022 жыл 3 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -56990,11 +56908,13 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл4-ші ай
+          2022 жыл 4 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -57466,36 +57386,17 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл5-ші ай
+          2022 жыл 5 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -57963,11 +57864,13 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл6-ші ай
+          2022 жыл 6 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -58433,11 +58336,13 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл7-ші ай
+          2022 жыл 7 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -58924,11 +58829,13 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл8-ші ай
+          2022 жыл 8 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -59403,11 +59310,13 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
-          2022жыл9-ші ай
+          2022 жыл 9 ай
         </div>
         <div
           class="adm-calendar-picker-view-cells"
@@ -60361,7 +60270,7 @@ exports[`ConfigProvider should display the text as kk-KZ 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Жүктеу"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -61150,7 +61059,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -61634,7 +61545,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -62110,7 +62023,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -62119,27 +62034,6 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -62607,7 +62501,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -63077,7 +62973,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -63568,7 +63466,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -64047,7 +63947,9 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -65005,7 +64907,7 @@ exports[`ConfigProvider should display the text as ko-KR 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="업로드"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -65794,7 +65696,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -66278,7 +66182,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -66754,7 +66660,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -66763,27 +66671,6 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -67251,7 +67138,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -67721,7 +67610,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -68212,7 +68103,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -68691,7 +68584,9 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -69649,7 +69544,7 @@ exports[`ConfigProvider should display the text as ms-MY 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="memuat naik"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -70438,7 +70333,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -70922,7 +70819,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -71398,7 +71297,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -71407,27 +71308,6 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -71895,7 +71775,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -72365,7 +72247,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -72856,7 +72740,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -73335,7 +73221,9 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -74293,7 +74181,7 @@ exports[`ConfigProvider should display the text as nb-NO 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Last opp"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -75082,7 +74970,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -75566,7 +75456,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -76042,7 +75934,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -76051,27 +75945,6 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -76539,7 +76412,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -77009,7 +76884,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -77500,7 +77377,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -77979,7 +77858,9 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -78937,7 +78818,7 @@ exports[`ConfigProvider should display the text as nl-NL 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Uploaden"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -79726,7 +79607,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -80210,7 +80093,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -80686,7 +80571,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -80695,27 +80582,6 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -81183,7 +81049,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -81653,7 +81521,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -82144,7 +82014,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -82623,7 +82495,9 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -83581,7 +83455,7 @@ exports[`ConfigProvider should display the text as pt-BR 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Carregar"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -84370,7 +84244,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -84854,7 +84730,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -85330,7 +85208,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -85339,27 +85219,6 @@ exports[`ConfigProvider should display the text as ru 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -85827,7 +85686,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -86297,7 +86158,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -86788,7 +86651,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -87267,7 +87132,9 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -88225,7 +88092,7 @@ exports[`ConfigProvider should display the text as ru 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Выгрузить"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -89014,7 +88881,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -89498,7 +89367,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -89974,7 +89845,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -89983,27 +89856,6 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -90471,7 +90323,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -90941,7 +90795,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -91432,7 +91288,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -91911,7 +91769,9 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -92869,7 +92729,7 @@ exports[`ConfigProvider should display the text as th-TH 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="อัปโหลด"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -93658,7 +93518,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -94142,7 +94004,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -94618,7 +94482,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -94627,27 +94493,6 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -95115,7 +94960,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -95585,7 +95432,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -96076,7 +95925,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -96555,7 +96406,9 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -97513,7 +97366,7 @@ exports[`ConfigProvider should display the text as tr-TR 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Yükle"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -98302,7 +98155,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -98786,7 +98641,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -99262,7 +99119,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -99271,27 +99130,6 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -99759,7 +99597,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -100229,7 +100069,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -100720,7 +100562,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -101199,7 +101043,9 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -102157,7 +102003,7 @@ exports[`ConfigProvider should display the text as vi-VN 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Tải lên"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -102946,7 +102792,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -103430,7 +103278,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -103906,7 +103756,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -103915,27 +103767,6 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -104403,7 +104234,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -104873,7 +104706,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -105364,7 +105199,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -105843,7 +105680,9 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -106801,7 +106640,7 @@ exports[`ConfigProvider should display the text as zh-CH 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="上传"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -107590,7 +107429,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -108074,7 +107915,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -108550,7 +108393,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -108559,27 +108404,6 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -109047,7 +108871,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -109517,7 +109343,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -110008,7 +109836,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -110487,7 +110317,9 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -111445,7 +111277,7 @@ exports[`ConfigProvider should display the text as zh-HK 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />
@@ -112234,7 +112066,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
     <div
       class="adm-calendar-picker-view-body"
     >
-      <div>
+      <div
+        data-year-month="2022-3"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -112718,7 +112552,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-4"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -113194,7 +113030,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-5"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -113203,27 +113041,6 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
         <div
           class="adm-calendar-picker-view-cells"
         >
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
-          <div
-            class="adm-calendar-picker-view-cell"
-          />
           <div
             class="adm-calendar-picker-view-cell"
           >
@@ -113691,7 +113508,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-6"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -114161,7 +113980,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-7"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -114652,7 +114473,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-8"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -115131,7 +114954,9 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </div>
         </div>
       </div>
-      <div>
+      <div
+        data-year-month="2022-9"
+      >
         <div
           class="adm-calendar-picker-view-title"
         >
@@ -116089,7 +115914,7 @@ exports[`ConfigProvider should display the text as zh-TW 1`] = `
           </span>
           <input
             accept="image/*"
-            aria-hidden="true"
+            aria-label="Upload"
             class="adm-image-uploader-input"
             type="file"
           />

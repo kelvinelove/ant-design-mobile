@@ -1,29 +1,38 @@
+import classNames from 'classnames'
+import dayjs from 'dayjs'
+import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
+import isoWeek from 'dayjs/plugin/isoWeek'
+import type { ReactNode } from 'react'
 import React, {
   forwardRef,
-  useState,
+  useContext,
   useImperativeHandle,
   useMemo,
+  useRef,
+  useState,
 } from 'react'
-import type { ReactNode } from 'react'
 import { NativeProps, withNativeProps } from '../../utils/native-props'
-import dayjs from 'dayjs'
-import classNames from 'classnames'
+import { usePropsValue } from '../../utils/use-props-value'
 import { mergeProps } from '../../utils/with-default-props'
 import { useConfig } from '../config-provider'
-import isoWeek from 'dayjs/plugin/isoWeek'
-import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
-import { usePropsValue } from '../../utils/use-props-value'
 import {
-  convertValueToRange,
-  convertPageToDayjs,
   DateRange,
   Page,
+  convertPageToDayjs,
+  convertValueToRange,
 } from './convert'
+import useSyncScroll from './useSyncScroll'
 
 dayjs.extend(isoWeek)
 dayjs.extend(isSameOrBefore)
 
 const classPrefix = 'adm-calendar-picker-view'
+
+export const Context = React.createContext<{
+  visible: boolean
+}>({
+  visible: false,
+})
 
 export type CalendarPickerViewRef = {
   jumpTo: (page: Page | ((page: Page) => Page)) => void
@@ -32,7 +41,7 @@ export type CalendarPickerViewRef = {
 }
 
 export type CalendarPickerViewProps = {
-  title?: React.ReactNode
+  title?: React.ReactNode | false
   confirmText?: string
   weekStartsOn?: 'Monday' | 'Sunday'
   renderTop?: (date: Date) => React.ReactNode
@@ -76,9 +85,11 @@ export const CalendarPickerView = forwardRef<
   CalendarPickerViewRef,
   CalendarPickerViewProps
 >((p, ref) => {
+  const bodyRef = useRef<HTMLDivElement>(null)
   const today = dayjs()
   const props = mergeProps(defaultProps, p)
   const { locale } = useConfig()
+
   const markItems = [...locale.Calendar.markItems]
   if (props.weekStartsOn === 'Sunday') {
     const item = markItems.pop()
@@ -106,6 +117,23 @@ export const CalendarPickerView = forwardRef<
     dayjs(dateRange ? dateRange[0] : today).date(1)
   )
 
+  const showHeader = props.title !== false
+
+  // =============================== Scroll ===============================
+  const context = useContext(Context)
+  const scrollTo = useSyncScroll(current, context.visible, bodyRef)
+
+  // ============================== Boundary ==============================
+  const maxDay = useMemo(
+    () => (props.max ? dayjs(props.max) : current.add(6, 'month')),
+    [props.max, current]
+  )
+  const minDay = useMemo(
+    () => (props.min ? dayjs(props.min) : current),
+    [props.min, current]
+  )
+
+  // ================================ Refs ================================
   useImperativeHandle(ref, () => ({
     jumpTo: pageOrPageGenerator => {
       let page: Page
@@ -117,14 +145,19 @@ export const CalendarPickerView = forwardRef<
       } else {
         page = pageOrPageGenerator
       }
-      setCurrent(convertPageToDayjs(page))
+      const next = convertPageToDayjs(page)
+      setCurrent(next)
+      scrollTo(next)
     },
     jumpToToday: () => {
-      setCurrent(dayjs().date(1))
+      const next = dayjs().date(1)
+      setCurrent(next)
+      scrollTo(next)
     },
     getDateRange: () => dateRange,
   }))
 
+  // =============================== Render ===============================
   const header = (
     <div className={`${classPrefix}-header`}>
       <div className={`${classPrefix}-title`}>
@@ -133,29 +166,37 @@ export const CalendarPickerView = forwardRef<
     </div>
   )
 
-  const maxDay = useMemo(
-    () => (props.max ? dayjs(props.max) : current.add(6, 'month')),
-    [props.max, current]
-  )
-  const minDay = useMemo(
-    () => (props.min ? dayjs(props.min) : current),
-    [props.min, current]
-  )
-
   function renderBody() {
     const cells: ReactNode[] = []
     let monthIterator = minDay
     // 遍历月份
     while (monthIterator.isSameOrBefore(maxDay, 'month')) {
       const year = monthIterator.year()
-      const month = monthIterator.month()
+      const month = monthIterator.month() + 1
+
       const renderMap = {
         year,
-        month: month + 1,
+        month,
       }
 
+      const yearMonth = `${year}-${month}`
+
+      // 获取需要预先填充的空格，如果是 7 天则不需要填充
+      const presetEmptyCellCount =
+        props.weekStartsOn === 'Monday'
+          ? monthIterator.date(1).isoWeekday() - 1
+          : monthIterator.date(1).isoWeekday()
+      const presetEmptyCells =
+        presetEmptyCellCount == 7
+          ? null
+          : Array(presetEmptyCellCount)
+              .fill(null)
+              .map((_, index) => (
+                <div key={index} className={`${classPrefix}-cell`}></div>
+              ))
+
       cells.push(
-        <div key={`${year}-${month}`}>
+        <div key={yearMonth} data-year-month={yearMonth}>
           <div className={`${classPrefix}-title`}>
             {locale.Calendar.yearAndMonth?.replace(
               /\${(.*?)}/g,
@@ -166,15 +207,7 @@ export const CalendarPickerView = forwardRef<
           </div>
           <div className={`${classPrefix}-cells`}>
             {/* 空格填充 */}
-            {Array(
-              props.weekStartsOn === 'Monday'
-                ? monthIterator.date(1).isoWeekday() - 1
-                : monthIterator.date(1).isoWeekday()
-            )
-              .fill(null)
-              .map((_, index) => (
-                <div key={index} className={`${classPrefix}-cell`}></div>
-              ))}
+            {presetEmptyCells}
             {/* 遍历每月 */}
             {Array(monthIterator.daysInMonth())
               .fill(null)
@@ -306,7 +339,11 @@ export const CalendarPickerView = forwardRef<
 
     return cells
   }
-  const body = <div className={`${classPrefix}-body`}>{renderBody()}</div>
+  const body = (
+    <div className={`${classPrefix}-body`} ref={bodyRef}>
+      {renderBody()}
+    </div>
+  )
 
   const mark = (
     <div className={`${classPrefix}-mark`}>
@@ -321,7 +358,7 @@ export const CalendarPickerView = forwardRef<
   return withNativeProps(
     props,
     <div className={classPrefix}>
-      {header}
+      {showHeader && header}
       {mark}
       {body}
     </div>
